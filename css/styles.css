@@ -23,7 +23,7 @@ html {
   box-sizing: inherit;
 }
 
-h1,
+/* h1,
 h2,
 h3 {
   padding: 0;
@@ -38,7 +38,7 @@ p {
 ul {
   padding: 0;
   margin: 0;
-}
+} */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -46,16 +46,16 @@ body {
   background-color: var(--white-color);
 }
 
-/* стили шапки */
-
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
+
+/* стили шапки */
 
 .list {
   list-style: none;
@@ -92,6 +92,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.header-contacts {
+  margin-bottom: 0;
+}
+
 .header-contacts .link {
   color: var(--secondary-text-color);
   font-family: 'Roboto';
@@ -123,6 +127,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .hero .btn {
@@ -151,12 +158,19 @@ body {
   display: none;
 }
 
+.section-peculiarity .list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .section-peculiarity .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .section-peculiarity .text {
@@ -165,6 +179,8 @@ body {
   font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* стили чем мы занимаемся */
@@ -175,6 +191,13 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50;
+}
+
+.our-works .list {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .our-works-item {
@@ -193,6 +216,13 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50;
+}
+
+.our-team .list {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .our-team-card {
@@ -214,6 +244,8 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* секция "футер" */
@@ -256,6 +288,11 @@ body {
   display: none;
 }
 
+.portfolio .list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .portfolio .btn {
   background-color: var(--secondary-bgcolor);
   font-family: inherit;
@@ -291,4 +328,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
