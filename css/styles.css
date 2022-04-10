@@ -13,6 +13,33 @@
   --aktive-btn-color: #188ce8; /* aktive-button-color */
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--dark-color);
@@ -20,6 +47,15 @@ body {
 }
 
 /* стили шапки */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
 
 .list {
   list-style: none;
@@ -55,6 +91,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .header-contacts .link {
   color: var(--secondary-text-color);
   font-family: 'Roboto';
@@ -213,13 +250,13 @@ body {
 
 /* страница порфолио */
 
-/* страница секция фильтр */
+/* фильтр */
 
 .filter-title {
   display: none;
 }
 
-.filter .btn {
+.portfolio .btn {
   background-color: var(--secondary-bgcolor);
   font-family: inherit;
   font-weight: 500;
@@ -229,13 +266,13 @@ body {
   letter-spacing: 0.03em;
 }
 
-.filter .btn:hover,
-.filter .btn:focus {
+.portfolio .btn:hover,
+.portfolio .btn:focus {
   background-color: var(--brand-color);
   color: var(--white-color);
 }
 
-/* страница проекты */
+/* проекты */
 
 .portfolio-title {
   display: none;
