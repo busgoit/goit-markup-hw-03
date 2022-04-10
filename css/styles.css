@@ -59,6 +59,8 @@ body {
 
 .list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .link {
@@ -158,11 +160,6 @@ body {
   display: none;
 }
 
-.section-peculiarity .list {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .section-peculiarity .title {
   font-weight: 700;
   font-size: 14px;
@@ -192,12 +189,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0;
-  margin-bottom: 50;
-}
-
-.our-works .list {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .our-works-item {
@@ -217,12 +209,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0;
-  margin-bottom: 50;
-}
-
-.our-team .list {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .our-team-card {
@@ -286,11 +273,6 @@ body {
 
 .filter-title {
   display: none;
-}
-
-.portfolio .list {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .portfolio .btn {
