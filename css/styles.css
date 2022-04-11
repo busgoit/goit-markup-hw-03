@@ -23,23 +23,6 @@ html {
   box-sizing: inherit;
 }
 
-/* h1,
-h2,
-h3 {
-  padding: 0;
-  margin: 0;
-}
-
-p {
-  padding: 0;
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-} */
-
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--dark-color);
